@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 149.0, 348.0, 1531.0, 830.0 ],
+		"rect" : [ 362.0, 503.0, 1531.0, 830.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,37 +39,76 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 264.333332598209381, 326.0, 134.0, 22.0 ],
-					"text" : "SendToUE4 @source 3"
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 486.333332598209381, 287.933332860469818, 295.0, 22.0 ],
+					"text" : "Click Here to Connect",
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
+					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 178.333332598209381, 359.0, 134.0, 22.0 ],
-					"text" : "SendToUE4 @source 2"
+					"patching_rect" : [ 486.333332598209381, 292.933332860469818, 295.0, 22.0 ],
+					"text" : "UE4StemConnect @name Cricket-Chorus @source 3"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 193.333332598209381, 338.933332860469818, 253.0, 22.0 ],
+					"text" : "Click Here to Connect",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 29.333332598209381, 379.933332860469818, 242.0, 22.0 ],
+					"text" : "Click Here to Connect",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 79.0, 395.0, 134.0, 22.0 ],
-					"text" : "SendToUE4 @source 1"
+					"patching_rect" : [ 29.333332598209381, 383.933334171772003, 242.0, 22.0 ],
+					"text" : "UE4StemConnect @name Bass @source 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 193.333332598209381, 342.933332860469818, 253.0, 22.0 ],
+					"text" : "UE4StemConnect @name Brooke @source 2"
 				}
 
 			}
@@ -81,19 +120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 328.333332598209381, 285.933332860469818, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.333332598209381, 285.933332860469818, 95.0, 22.0 ],
-					"text" : "CricketChorus 3"
+					"patching_rect" : [ 434.333332598209381, 249.933332860469818, 24.0, 24.0 ]
 				}
 
 			}
@@ -105,19 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.333332598209381, 285.933332860469818, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.333332598209381, 285.933332860469818, 50.0, 22.0 ],
-					"text" : "Brook 2"
+					"patching_rect" : [ 307.833332598209381, 298.933332860469818, 24.0, 24.0 ]
 				}
 
 			}
@@ -332,19 +347,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 138.0, 285.933332860469818, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 285.933332860469818, 45.0, 22.0 ],
-					"text" : "Bass 1"
+					"patching_rect" : [ 140.833332598209381, 342.933332860469818, 24.0, 24.0 ]
 				}
 
 			}
@@ -1050,8 +1053,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -1061,8 +1064,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
@@ -1072,9 +1075,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1109,8 +1112,8 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1446,7 +1449,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1519,13 +1522,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
@@ -1550,13 +1546,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
@@ -1573,6 +1562,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -1580,29 +1576,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
+					"destination" : [ "obj-26", 1 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 2 ],
-					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -1622,8 +1597,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1786,6 +1775,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -1980,13 +1983,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-8", 1 ]
 				}
@@ -2001,7 +1997,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
+					"destination" : [ "obj-11", 1 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -2022,12 +2018,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-27::obj-58" : [ "live.text[10]", "live.text[9]", 0 ],
 			"obj-27::obj-57" : [ "live.text[9]", "live.text[9]", 0 ],
+			"obj-27::obj-62" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-27::obj-58" : [ "live.text[10]", "live.text[9]", 0 ],
+			"obj-27::obj-3" : [ "live.text[1]", "live.text[9]", 0 ],
 			"obj-8" : [ "live.gain~[8]", "headphones monitoring", 0 ],
 			"obj-27::obj-72" : [ "live.text[14]", "live.text[8]", 0 ],
-			"obj-27::obj-3" : [ "live.text[1]", "live.text[9]", 0 ],
-			"obj-27::obj-62" : [ "live.text[12]", "live.text[9]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2037,7 +2033,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "spat5.gui.control.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Shared/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../Shared/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2048,8 +2044,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SendToUE4.maxpat",
-				"bootpath" : "~/Desktop/Max Patchers",
+				"name" : "UE4StemConnect.maxpat",
+				"bootpath" : "~/Desktop/risd-fvm-playground-master/risd-fvm-playground",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2118,8 +2114,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -2129,8 +2125,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -2140,9 +2136,9 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2177,8 +2173,8 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 9.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
